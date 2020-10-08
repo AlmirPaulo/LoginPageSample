@@ -8,8 +8,13 @@
     font-family: Nunito;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
     background: #333;
+    font-size: 1.6rem;
 }
 
 .box {
@@ -27,9 +32,9 @@ body {
 
 .form-label {
     position: relative; 
-    right: 200px;
+    right: 180px;
     bottom: 5px;
-    font-size: small;
+    font-size: 1.2rem;
     background-color: transparent;
     color: #000;
     transition: 0.5;
@@ -38,20 +43,20 @@ body {
 
 .input:focus + .form-label {
    position: relative;
-   right: 200px;
+   right: 180px;
    bottom: 15px;
    color: #fff;
    background: transparent;
-   font-size: small;
+   font-size: 1.2rem;
 }
 
 .input:not(:placeholder-shown).input:not(:focus) + .form-label{
     position: relative;
-   right: 200px;
+   right: 180px;
    bottom: 15px;
    color: #fff;
    background: transparent;
-   font-size: small;
+   font-size: 1.2rem;
 }
 
 
